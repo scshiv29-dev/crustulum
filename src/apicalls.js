@@ -1,4 +1,4 @@
-const API = "http://text.lawcoolify.ml/api/";
+const API = "https://text.lawcoolify.ml/api/";
 
 export const createFile = (file) => {
   return fetch(`${API}create`, {
