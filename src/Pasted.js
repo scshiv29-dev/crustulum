@@ -21,7 +21,7 @@ export default function Pasted() {
     error: false,
     reload: false,
   });
-  const { name, description, viewOnce, success, error, reload } = values;
+  const { name, description, viewOnce} = values;
   const preLoad = (id) => {
     getFile(id)
       .then((data) => {

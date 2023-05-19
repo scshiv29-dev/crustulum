@@ -3,14 +3,14 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 import "./App.css";
-import Switch from "@mui/material/Switch";
+
 import { Button, Divider, Stack, Typography } from "@mui/material";
 import { createFile } from "./apicalls";
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 export default function Form() {
-  const location = useLocation();
-  const label = { inputProps: { "aria-label": "ViewOnce" } };
+  
+  
   const [values, setValues] = useState({
     name: "",
     description: "",
